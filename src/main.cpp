@@ -1,18 +1,46 @@
 #include <Arduino.h>
 
-// put function declarations here:
-int myFunction(int, int);
+//deklarasi pin LED
+//mendeklarasikan variabel konstanta integer untuk menyimpan nomor pin LED
+
+const int ledmerah = 8;
+const int ledkuning = 9;
+const int ledhijau = 10;
+
+
 
 void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+
+//mengatur pin-pin yg dihubungkan ke LED sebagai OUTPUT
+//hal ini berarti pin-pin tersebut dapat digunakan untuk mengendalikan LED
+pinMode(ledmerah, OUTPUT);
+pinMode(ledkuning, OUTPUT);
+pinMode(ledhijau, OUTPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-}
 
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+//LED merah 
+//menyalakan LED merah 5 detik, kemudian mematikan nya  
+digitalWrite(ledmerah, HIGH);
+delay(5000);
+digitalWrite(ledmerah, LOW);
+
+//LED kuning
+//menyalakan LED kuning 1 detik, kemudian mematikannya
+digitalWrite(ledkuning, HIGH);
+delay(1000);
+digitalWrite(ledkuning, LOW);
+
+//LED hijau
+//menyalakan LED hijau 5 detik, kemudian mematikannya
+digitalWrite(ledhijau, HIGH);
+delay(5000);
+digitalWrite(ledhijau, LOW);
+
+//LED kuning
+//menyalakan LED kuning 1 detik, kemudian mematikannya
+digitalWrite(ledkuning, HIGH);
+delay(1000);
+digitalWrite(ledkuning, LOW);
 }
