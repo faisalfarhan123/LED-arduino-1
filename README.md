@@ -1,7 +1,7 @@
-# latihan proyek arduino menggunakan Visual Studio Code
+# Latihan proyek arduino menggunakan Visual Studio Code
 
-di dalam proyek ini kita bisa mengsimulasikan proyek arduino dengan komponen LED merah, kuning, hijau.
+Di Dalam Proyek ini Kita bisa Mengsimulasikan proyek arduino dengan komponen LED merah, kuning, hijau.
 
-lampu LED dapat meyala secara bergantian.
+Lampu LED dapat meyala secara bergantian.
 
-urutan menyalanya seperti lampu lalu lintas. 
+Urutan menyalanya seperti lampu lalu lintas.
